@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>APIs</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="pgbody">
+    <h4 id="display">buzzed in at: no data</h4>
+    <h4 id="datadisp">a get request has not yet been run</h4>
+    <h4 class="team" id="1" onclick="assignTeam(1)">Team 1</h4>
+    <h4 class="team" id="2" onclick="assignTeam(2)">Team 2</h4>
+    <h4 class="team" id="3" onclick="assignTeam(3)">Team 3</h4>
+    <h4 class="team" id="4" onclick="assignTeam(4)">Team 4</h4>
+    <h4 class="team" id="5" onclick="assignTeam(5)">Team 5</h4>
+    <button type="button" id="get" onclick="getTeamData()">GET</button>
+    <button type="button" id="post" onclick="postData()">POST</button>
+    <button type="button" id="buzz" onclick="buzz()">BUZZ IN</button>
+    <script src="page.js"></script>
+  </body>
+</html>
