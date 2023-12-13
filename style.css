@@ -1,0 +1,9 @@
+.team {
+    display: flex;
+    font-weight: lighter;
+}
+
+.team:hover {
+    cursor: pointer;
+    color: blue;
+}
